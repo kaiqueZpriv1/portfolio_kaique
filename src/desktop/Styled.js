@@ -11,7 +11,7 @@ export const Main = styled.main`
 		margin-bottom: 10px;
 		color: #053b50;
 		text-align: center;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 5vw;
 		}
 	}
@@ -27,7 +27,7 @@ export const Header = styled.header`
 		border-radius: 100%;
 		width: 50px;
 		margin: 10px 0 0 50px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			width: 50px;
 			margin: 10px 20px 0 0;
 			position: absolute;
@@ -39,7 +39,7 @@ export const Header = styled.header`
 		padding: 10px;
 		border-radius: 5px;
 		background: #053b50;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			display: none;
 		}
 	}
@@ -55,7 +55,7 @@ export const Inicial = styled.section`
 	.container-inicial {
 		display: flex;
 		justify-content: space-around;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			width: 390px;
 			flex-direction: column;
 			justify-content: center;
@@ -84,7 +84,7 @@ export const ContainerText = styled.div`
 	margin-left: 50px;
 	margin: 150px 300px 0 100px;
 	width: 26em;
-	@media (max-width: 400px) {
+	@media (max-width: 430px) {
 		margin: 150px 150px 0 50px;
 		width: 12em;
 	}
@@ -92,7 +92,7 @@ export const ContainerText = styled.div`
 		font-size: 3vw;
 		font-weight: 600;
 		color: #176b87;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 8vw;
 		}
 	}
@@ -102,7 +102,7 @@ export const ContainerText = styled.div`
 		border-right: 2px solid rgba(0, 0, 0, 0.75);
 		white-space: nowrap;
 		overflow: hidden;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 10vw;
 		}
 	}
@@ -129,7 +129,7 @@ export const ContainerText = styled.div`
 		color: #176b87;
 		font-weight: 600;
 		font-size: 1.5vw;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 4vw;
 		}
 	}
@@ -139,7 +139,7 @@ export const ContainerText = styled.div`
 		gap: 20px;
 		justify-content: center;
 		align-items: center;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			justify-content: space-around;
 			gap: 0px;
 		}
@@ -152,7 +152,7 @@ export const ContainerText = styled.div`
 		text-decoration: none;
 		font-size: 1.5vw;
 		font-weight: 600;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 4vw;
 		}
 	}
@@ -177,7 +177,7 @@ export const ContainerText = styled.div`
 `;
 export const ContainerPhoto = styled.div`
 	padding: 100px 100px 0 0;
-	@media (max-width: 400px) {
+	@media (max-width: 430px) {
 		padding: 0;
 		margin: 100px 0 0 55px;
 	}
@@ -186,7 +186,7 @@ export const ContainerPhoto = styled.div`
 		box-shadow: 0 0 10px #fff;
 		width: 300px;
 		height: 300px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			width: 200px;
 			height: 200px;
 		}
@@ -195,17 +195,17 @@ export const ContainerPhoto = styled.div`
 
 export const Habilidades = styled.div`
 	margin: 140px 0 0 0;
-	@media (max-width: 400px) {
+	@media (max-width: 430px) {
 		position: relative;
-		bottom: 250px;
-		margin: 90px 0 0 0;
+		bottom: 160px;
+		margin: 0px 0 0 0;
 	}
 	.container-habilidades {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		gap: 40px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			gap: 50px 160px;
 			margin: 0 0 0 50px;
 			display: grid;
@@ -215,7 +215,7 @@ export const Habilidades = styled.div`
 	.btn-habilidade {
 		display: flex;
 		align-items: center;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 		}
 	}
 	.btn-habilidade:hover {
@@ -225,7 +225,7 @@ export const Habilidades = styled.div`
 		font-size: 1.2vw;
 		font-weight: 600;
 		color: rgba(20, 20, 20, 0.5);
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 4vw;
 			display: none;
 		}
@@ -238,7 +238,7 @@ export const Habilidades = styled.div`
 	.icon-habilidade {
 		color: rgba(20, 20, 20, 0.5);
 		font-size: 1.2vw;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 40px;
 		}
 	}
@@ -261,22 +261,24 @@ export const Details = styled.div`
 	right: 0;
 	bottom: 0;
 	transform: rotate(180deg);
-	@media (max-width: 400px) {
+	@media (max-width: 430px) {
 		display: none;
 	}
 `;
 
 export const Sobre = styled.div`
 	margin-top: 150px;
-	@media (max-width: 400px) {
+	@media (max-width: 430px) {
 		margin-top: 0;
+		position: relative;
+		bottom: 20px;
 	}
 	.container-sobre {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		gap: 20px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			display: flex;
 			flex-direction: column;
 		}
@@ -286,7 +288,7 @@ export const Sobre = styled.div`
 		height: 230px;
 		border-radius: 5px;
 		border: 1px solid #000;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			display: none;
 		}
 	}
@@ -295,7 +297,7 @@ export const Sobre = styled.div`
 		display: flex;
 		flex-direction: column;
 		gap: 15px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			text-align: center;
 			margin: 0;
 		}
@@ -303,14 +305,14 @@ export const Sobre = styled.div`
 	.name-sobre {
 		font-size: 2.5vw;
 		color: #053b50;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 9vw;
 		}
 	}
 	.paragrafo-sobre {
 		font-size: 1.3vw;
 		color: #176b87;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 5vw;
 			margin: 0 20px;
 		}
@@ -319,16 +321,17 @@ export const Sobre = styled.div`
 
 export const Portfolio = styled.div`
 	margin-top: 150px;
-	@media (max-width: 400px) {
-		margin-top: 100px;
+	@media (max-width: 430px) {
+		margin-top: 50px;
 	}
 	.portfolio-apresentacao {
 		font-size: 4vw;
 		color: #053b50;
 		text-align: center;
 		margin-bottom: 80px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 8vw;
+			margin-bottom: 40px;
 		}
 	}
 	.container-portfolio {
@@ -336,7 +339,7 @@ export const Portfolio = styled.div`
 		grid-template-columns: 350px 350px;
 		align-self: center;
 		margin: 0 0 0 350px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			margin: 0;
 			grid-template-columns: 400px;
 		}
@@ -344,7 +347,7 @@ export const Portfolio = styled.div`
 	.box-portfolio {
 		text-align: center;
 		margin: 0 40px 30px 40px;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			margin: 20px 0 0 0;
 		}
 	}
@@ -353,7 +356,7 @@ export const Portfolio = styled.div`
 	}
 	.title-video {
 		font-size: 2vw;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 7vw;
 		}
 	}
@@ -362,7 +365,7 @@ export const Portfolio = styled.div`
 		border: 1px solid #000;
 		border-radius: 5px;
 		background: #053b50;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			padding: 10px 30px;
 		}
 	}
@@ -370,7 +373,7 @@ export const Portfolio = styled.div`
 		font-size: 1vw;
 		font-weight: 500;
 		color: #fff;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 5vw;
 		}
 	}
@@ -378,7 +381,7 @@ export const Portfolio = styled.div`
 
 export const Contatos = styled.div`
 	margin-top: 100px;
-	@media (max-width: 400px) {
+	@media (max-width: 430px) {
 		margin-top: 80px;
 	}
 	.apresentacao-contatos {
@@ -387,7 +390,7 @@ export const Contatos = styled.div`
 		text-align: center;
 		margin-bottom: 80px;
 
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 10vw;
 			margin-left: 90px;
 			margin-bottom: 30px;
@@ -399,7 +402,7 @@ export const Contatos = styled.div`
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			justify-content: center;
 			flex-direction: column;
 			gap: 30px;
@@ -415,7 +418,7 @@ export const Contatos = styled.div`
 		font-size: 2vw;
 		color: #053b50;
 		font-weight: 600;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 7vw;
 		}
 	}
@@ -427,7 +430,7 @@ export const Contatos = styled.div`
 	.btn-ancora-footer a {
 		font-size: 1.5vw;
 		color: #053b50;
-		@media (max-width: 400px) {
+		@media (max-width: 430px) {
 			font-size: 5vw;
 		}
 	}

@@ -131,7 +131,7 @@ function Index() {
 						<div className='box-portfolio' key={portfolio.id}>
 							<video
 								autoPlay
-								width='100%'
+								width='95%'
 								height='180'
 								controls='controls'
 								loop='loop'
