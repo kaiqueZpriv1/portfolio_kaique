@@ -24,6 +24,8 @@ import {
 } from "react-icons/ai";
 import logo from "./images/Logo.png";
 import detalhe from "./images/details.png";
+import fotoPessoal from "./images/fotoPessoal.jpeg";
+import fotoSobre from "./images/fotoSobre.jpeg";
 import { BiLogoCss3, BiLogoJavascript, BiLogoReact } from "react-icons/bi";
 import { listPortfolio } from "./components/List";
 function Index() {
@@ -75,7 +77,7 @@ function Index() {
 					<ContainerPhoto>
 						<img
 							className='photo-inicial'
-							src='https://via.placeholder.com/300'
+							src={fotoPessoal}
 							alt='foto inicial'
 						/>
 					</ContainerPhoto>
@@ -103,7 +105,7 @@ function Index() {
 			</Habilidades>
 			<Sobre>
 				<div className='container-sobre'>
-					<div className='photo-pessoal'></div>
+					<img src={fotoSobre} className='photo-pessoal' alt='foto pessoal' />
 					<div className='container-sobre-text'>
 						<h3 className='name-sobre'>Kaique Ferreira</h3>
 						<p className='paragrafo-sobre'>

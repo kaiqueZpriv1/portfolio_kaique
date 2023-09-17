@@ -184,8 +184,11 @@ export const ContainerPhoto = styled.div`
 	.photo-inicial {
 		border-radius: 100%;
 		box-shadow: 0 0 10px #fff;
+		width: 300px;
+		height: 300px;
 		@media (max-width: 400px) {
 			width: 200px;
+			height: 200px;
 		}
 	}
 `;
